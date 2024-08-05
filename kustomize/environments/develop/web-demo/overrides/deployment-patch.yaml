@@ -8,4 +8,4 @@ spec:
       containers:
       - name: web-demo
         image: mjcheveste/web-example
-        tag: 1.0.1
+        tag: 1.0.3
