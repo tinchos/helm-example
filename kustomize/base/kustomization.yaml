@@ -8,4 +8,4 @@ resources:
   #- namespace.yaml
   - service.yaml
   - hpa.yaml
-  - ingress.yaml
+  #- ingress.yaml
