@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: web-demo-hpa
+  name: web-demo-git-hpa
 spec:
   minReplicas: 2
   maxReplicas: 4
