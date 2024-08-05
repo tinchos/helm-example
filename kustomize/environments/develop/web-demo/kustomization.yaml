@@ -2,7 +2,7 @@
 namespace: develop
 replicas:
   - name: web-demo
-    count: 4
+    count: 2
 images:
   - name: mjcheveste/web-example
     newTag: 1.0.3
