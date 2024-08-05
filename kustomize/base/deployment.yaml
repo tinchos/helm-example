@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: web-demo
-        image: mjcheveste/web-example:1.0.1
+        image: mjcheveste/web-example:1.0.3
         ports:
         - containerPort: 80
