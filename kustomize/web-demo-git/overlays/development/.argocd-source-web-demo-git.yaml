@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - mjcheveste/web-example:1.0.6
