@@ -1,4 +1,6 @@
 ---
+bases:
+  - ../../../base
 namespace: develop
 replicas:
   - name: web-demo
@@ -6,8 +8,6 @@ replicas:
 images:
   - name: mjcheveste/web-example
     newTag: 1.0.3
-resources:
-  - ../../../base
 
 
 

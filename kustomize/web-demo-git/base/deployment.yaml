@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-demo-git
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-demo-git
+  template:
+    metadata:
+      labels:
+        app: web-demo-git
+    spec:
+      containers:
+      - name: web-demo-git
+        image: mjcheveste/web-example:1.0.3
+        ports:
+        - containerPort: 80
