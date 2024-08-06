@@ -1,13 +1,13 @@
 ---
+resources:
+  - ../../base
 namespace: develop
 replicas:
   - name: web-demo-git
-    count: 2
+    count: 4
 images:
   - name: mjcheveste/web-example
     newTag: 1.0.3
-resources:
-  - ../../../base
 
 
 
