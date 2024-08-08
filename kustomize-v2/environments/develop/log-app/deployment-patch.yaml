@@ -1,0 +1,6 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: log-app-dev
+spec:
+  revisionHistoryLimit: 1
