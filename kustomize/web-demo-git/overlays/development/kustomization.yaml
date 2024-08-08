@@ -2,9 +2,12 @@
 resources:
   - ../../base
 namespace: develop
+revisionHistoryLimit:
+  - name: web-demo-git
+    count: 3
 replicas:
   - name: web-demo-git
-    count: 4
+    count: 2
 images:
   - name: mjcheveste/web-example
     newTag: 1.0.3
