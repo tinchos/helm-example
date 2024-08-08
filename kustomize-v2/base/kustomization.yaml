@@ -5,7 +5,7 @@ metadata:
   name: arbitrary
 resources:
   - deployment.yaml
-  - namespace.yaml
+ # - namespace.yaml
   - service.yaml
   - hpa.yaml
   #- ingress.yaml
