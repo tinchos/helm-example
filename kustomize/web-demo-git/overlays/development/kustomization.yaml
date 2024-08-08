@@ -2,9 +2,7 @@
 resources:
   - ../../base
 namespace: develop
-revisionHistoryLimit:
-  - name: web-demo-git
-    count: 3
+
 replicas:
   - name: web-demo-git
     count: 2

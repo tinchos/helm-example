@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: web-demo-git
 spec:
+  revisionHistoryLimit: 2
   template:
     spec:
       containers:
