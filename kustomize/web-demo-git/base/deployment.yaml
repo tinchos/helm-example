@@ -4,6 +4,7 @@ metadata:
   name: web-demo-git
 spec:
   replicas: 1
+  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: web-demo-git
