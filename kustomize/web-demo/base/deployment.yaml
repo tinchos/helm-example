@@ -4,6 +4,7 @@ metadata:
   name: web-demo
 spec:
   replicas: 1
+  revisionHistoryLimit: 1
   selector:
     matchLabels:
       app: web-demo
