@@ -1,7 +1,7 @@
 
 resources:
   - ../../base
-  - deployment-patch.yaml
+
 namespace: develop
 
 replicas:
