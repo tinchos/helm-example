@@ -4,3 +4,9 @@ metadata:
   name: web-demo-dev
 spec:
   revisionHistoryLimit: 1
+  template:
+    spec:
+      containers:
+      - name: web-demo-dev
+        image: mjcheveste/web-example
+        tag: 1.0.3
